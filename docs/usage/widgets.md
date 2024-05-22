@@ -2,6 +2,8 @@
 
 Creating widgets on the [dashboard](dashboards.md) involves a four-step configuration process. By navigating through these configuration steps, users can design widgets that meet their specific requirements.
 
+To create a widget, click the (+) symbol in the bottom-right corner of the dashboard you wish to place it in. Note that you must have rights to edit the dashboard and create widgets.
+
 ## Widget configuration
 
 #### 1. Visualization
