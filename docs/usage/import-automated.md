@@ -7,11 +7,11 @@ Automated imports in OpenCTI streamline the process of data ingestion, allowing 
 
 Connectors in OpenCTI serve as dynamic gateways, facilitating the import of data from a wide array of sources and systems. Every connector is designed to handle specific data types and structures of the source, allowing OpenCTI to efficiently ingest the data.
 
-### Connector behaviors
+### Connector Behavior
 
-The behavior of each connector is defined by its development, determining the types of data it imports and its configuration options. This flexibility allows users to customize the import process to their specific needs, ensuring a seamless and personalized data integration experience.
+Each connector's behavior is determined by its design, specifying the types of data it can import and its configuration options. This flexibility allows users to tailor the import process to their specific needs, ensuring smooth and customized data integration.
 
-The level of configuration granularity regarding the imported data type varies with each connector. Nevertheless, connectors empower users to specify the date from which they wish to fetch data. This capability is particularly useful during the initial activation of a connector, enabling the retrieval of historical data. Following this, the connector operates in real-time, continuously importing new data from the source.
+The degree of configuration detail for the imported data type varies with each connector. However, connectors enable users to set the starting date for data retrieval. This feature is especially useful when initially activating a connector, allowing the import of historical data. After this initial import, the connector functions in real-time, continuously importing new data from the source.
 
 ### Connector Ecosystem
 
