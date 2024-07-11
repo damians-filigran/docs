@@ -77,6 +77,7 @@ Additional configuration options:
 
 - User responsible for data creation: Define the user responsible for creating data received from this TAXII feed. Best practice is to dedicate one user per source for organizational clarity. Please [see the section "Best practices" below](import-automated.md#best-practices-section) for more information.
 - Import from date: Specify the date of the oldest data to retrieve. Leave the field empty to import everything.
+- TAXII version: Select the version of the TAXII server. Note only TAXII 2.1 is supported via the UI. For legacy TAXII version support, please see the [connector page](https://filigran.notion.site/OpenCTI-Ecosystem-868329e9fb734fca89692b2ed6087e76#c94bf651e08146c4855a25efeaabc574).
 
 ![TAXII feed configuration](assets/taxii-feed-configuration.png)
 
