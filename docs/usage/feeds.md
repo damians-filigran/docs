@@ -62,7 +62,11 @@ In OpenCTI you can create as many TAXII 2.1 collections as needed.
 
 ![TAXII Collection](assets/taxii-collection.png)
 
-After creating a new collection, every system with a proper access token can consume the collection using different kinds of authentication (basic, bearer, etc.). 
+After creating a new collection, you can view both the URL of the collection, and the raw output of the collection, by clicking on the entry in the list of TAXII collections.
+
+The data served through each TAXII collection is defined by two filters:
+- The filter applied on that collection in the TAXII Collection UI
+- The data entities that the user account used by the TAXII Client to authenticate to the TAXII server has rights to access, including its Markings (TLP) and Organisational filters.
 
 As when using the GraphQL API, TAXII 2.1 collections have a classic pagination system that should be handled by the consumer. Also, it's important to understand that element dependencies (nested IDs) inside the collection are not always contained/resolved in the bundle, so consistency needs to be handled at the client level.
 
